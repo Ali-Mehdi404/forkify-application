@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "forkify application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel starter/index.html",
+    "build": "parcel build starter/index.html --dist-dir ./dist"
+  },
+  "author": "Ali Mehdi",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.28.0",
+    "fractional": "^1.0.0",
+    "parcel": "^2.0.0-beta.1",
+    "regenerator-runtime": "^0.13.11",
+    "sass": "^1.58.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "buffer": "^5.7.1",
+    "process": "^0.11.10",
+    "util": "^0.12.5"
+  }
+}
